@@ -6,6 +6,9 @@
     margin: auto;
     width: 90%;
 }
+.flex{
+    display: flex;
+}
 header{
     position: sticky; 
     display: block;
@@ -87,6 +90,9 @@ hr{
     text-transform: uppercase;
     text-align: center;
 }
+.im{
+    filter: brightness(40%);
+}
 .menuimg button{
     width: 134px;
     height: 45px;
@@ -140,6 +146,12 @@ h1{
     font-weight: 400;
     text-align: justify;
     text-align: center;
+}
+.preim_padding{
+    margin-left: 110px;
+}
+.preim_padding2{
+    margin-left: 20px;
 }
 .preim_treug{
     display: flex;
@@ -335,6 +347,11 @@ h1{
     position:relative;
 
 }
+#infoPol_box img{
+    width: 110%;
+    margin-right: 27px;
+    filter: brightness(40%);
+}
 .infotext{
     margin-right: 60px;
     margin-left: auto;
@@ -347,4 +364,33 @@ h1{
     padding: 10px;
     color:white;
     text-align: center;
+}
+footer{
+    background: #fbfbfb;
+}
+.col{
+    padding-top: 50px;
+    display: flex;
+}
+.gal{
+    color: #303842;
+}
+.te{
+    text-align: left;
+    width: 500px;
+}
+.te1{
+    text-align: left;
+    padding-left: 40px;
+}
+.te2{
+    text-align: left;
+    padding-left: 40px;
+}
+.te3{
+    text-align: left;
+    padding-left: 40px;
+}
+.c{
+    color: #8191a6;
 }
