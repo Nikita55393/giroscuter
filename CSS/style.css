@@ -6,6 +6,9 @@
     margin: auto;
     width: 90%;
 }
+.flex{
+    display: flex;
+}
 header{
     position: sticky; 
     display: block;
@@ -19,6 +22,10 @@ header{
     height: 40px;
     margin-bottom: 20px;
     display: flex;
+}
+.ss{
+    text-decoration: none;
+    color: black;
 }
 .tel{
     width: 184px;
@@ -83,9 +90,12 @@ hr{
     padding-bottom: 150px;
     position: absolute;
     top:40%;
-    left:14%;
+    left:4%;
     text-transform: uppercase;
     text-align: center;
+}
+.im{
+    filter: brightness(40%);
 }
 .menuimg button{
     width: 134px;
@@ -141,6 +151,12 @@ h1{
     text-align: justify;
     text-align: center;
 }
+.preimpadding{
+    margin-left: 110px;
+}
+.preimpadding2{
+    margin-left: 20px;
+}
 .preim_treug{
     display: flex;
 }
@@ -162,33 +178,28 @@ h1{
     height: 94px;
     width: 100%;   
 }
+INPUT[type="text"] {
+    background-color: #FFA019;
+    color: #fff;
+    border: 1px solid #FFF;
+    width: 263px;
+    height: 35px; 
+    margin-top: 10px;
+}
 #email p{
     color: #FFF;
     font-size: 18px;   
     font-weight: 600;
     width: 316px;
     height: 79px;
-    margin-right: 149px;
-}
-.email_name{
-    width: 265px;
-    height: 37px;
-    border: 1px solid #FFF;
-    background: #FFA019;
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-    margin-top: 21px;
-    margin-left: auto;
-    margin-right: 15px;
+    margin-right: 30px;
 }
 .email_sub{
-    width: 184px;
-    height: 37px;
+    width: 265px;
+    height: 37px; 
     font-size: 14px;
     font-weight: 700;
-    margin-top: 21px;
+    margin-top: 30px;
     margin-left: auto;
     background: #FFF;
     border: none;
@@ -216,12 +227,13 @@ h1{
 }
 
 #katalog{
-    background: rgba(251, 251, 251, 0.47);
     padding-top: 33px;
+    background: #fbfbfb;
 }
 .katalog{
     margin-left: auto;
     padding-top: 27px;
+    
 }
 .katalog button{
     margin-left: 38px;
@@ -279,10 +291,14 @@ h1{
 .consultant_box{
     margin-right: 180px;
     margin-left: auto;
+    background: #fbfbfb;
 }
 .consultant_box img{
     width: 60%;
     margin-right: 27px;
+}
+.fon{
+    background: #fbfbfb;
 }
 .name{
     font-size: 20px;
@@ -327,7 +343,7 @@ h1{
 }
 .infoPol{
     margin-top: 70px;
-    margin-bottom: 165px;
+    margin-bottom: 105px;
 }
 #infoPol_box{
     margin-right: 60px;
@@ -335,16 +351,52 @@ h1{
     position:relative;
 
 }
+#infoPol_box img{
+    width: 110%;
+    margin-right: 27px;
+    filter: brightness(40%);
+}
 .infotext{
-    margin-right: 60px;
-    margin-left: auto;
+    margin-right: 10px;
 }
 .infotextimg{
+    color: white;
+    vertical-align:middle;
+    display:table-cell;
+    padding-bottom: 150px;
     position: absolute;
-    top:40%;
-    left:15%;
+    top:35%;
+    left:5%;
+    width: 240px;
     text-transform: uppercase;
-    padding: 10px;
-    color:white;
     text-align: center;
+}
+footer{
+    background: #fbfbfb;
+}
+.col{
+    padding-top: 50px;
+    display: flex;
+}
+.gal{
+    color: #303842;
+}
+.te{
+    text-align: left;
+    width: 500px;
+}
+.te1{
+    text-align: left;
+    padding-left: 40px;
+}
+.te2{
+    text-align: left;
+    padding-left: 40px;
+}
+.te3{
+    text-align: left;
+    padding-left: 40px;
+}
+.c{
+    color: #8191a6;
 }
